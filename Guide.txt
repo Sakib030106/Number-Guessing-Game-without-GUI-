@@ -1,0 +1,18 @@
+# This is a simple number guessing game using Python.
+
+Hello Everyone! Welcome to this repository done by Sadman Sakib. 
+This is a number guessing game using Python without Graphical User Interfaces(GUI).
+The funny story is I don't use Pygame module in here. I just make a very simple game without Graphical User Interfaces (GUI).
+In this game you just have to guess a number (between 1 to 1000). Random module of Python use in here.
+
+Have a nice day.
+
+Created by,
+Sadman Sakib
+
+Note: You can download the source code for personal use only. Don't upload to any other websites without the owner's permission.
+
+Hope you like it. xD..
+Thank you!
+
+Follow me on FaceBook: https://www.facebook.com/sadmansakib2427/
