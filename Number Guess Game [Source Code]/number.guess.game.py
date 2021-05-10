@@ -1,33 +1,34 @@
 # This is a number guessing game.
 
+import random
+
 # Introduction:
-name = input('Hi! Welcome to this game. Please enter your name: ')
+name = input("Hi. This is a number guessing game. Please enter your name:")
 c = name.title()
-print('Welcome,', c)
+print("Welcome,", c)
 
-import random     # Importing turtle module:
-
-num = random.randint(1, 1000)
-attempts = 0
+num = random.randint(1, 1000)    # range of numbers
+attempts = 0     # times tried
 
 # Engine:
 while True:
     try:
-        input_num = input('Guess the number (between 1 to 1000): ')
+        # Taking User Input:
+        input_num = input("Guess a number between(1 to 1000): ")
         input_num = int(input_num)
         attempts += 1
 
         if input_num == num:
-            print('Yes, your guess is correct! ')
+            print("Congratulations! You guessed currect. ")
             break
         elif input_num > num:
-            print('Incorrect! Please try to guess a smaller number. ')
+            print("Incorrect. Please enter a smaller number. ")
         else:
-            print('Incorrect! Please try to guess a larger number. ')
+            print("Incorrect. Please enter a larger number. ")
     except ValueError:
-        print('Invalid Input. Try again. ')
+        print("Invalid input. Try again! ")
         continue
-print('You tried', attempts, 'times to find the number. ')
+print("You tried", attempts, "times to find the numbers. ")
 
 # End:
-end = input('Thank you for playing this game! See you soon.')
+end = input("Thank you for using this program. See you again! ")
